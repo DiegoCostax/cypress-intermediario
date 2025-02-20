@@ -27,5 +27,5 @@ Cypress.Commands.add('api_deleteProjects', () => {
       url: `/api/v4/projects/${project.id}`,
       headers: { Authorization: accessToken },
     }))
-  )
+  ) 
 })
